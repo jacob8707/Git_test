@@ -8,7 +8,7 @@ def sort_value(diction):
     return dict_new
 
 if __name__=="__main__":
-    name=['Hang', 'Dakai', 'Beau', 'Meichouchou','unkown']
+    name=['Hang', 'Dakai', 'Beau', 'Meichouchou','soon to know']
     age=[35,34,0,10,4]
     sort_age=sort_value(dict(zip(name,age)))
     print (sort_age)

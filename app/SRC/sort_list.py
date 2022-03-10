@@ -1,10 +1,10 @@
 # this function was used to sort the dictionary based on its values.
 def sort_value(diction):
-    lst=diction.items()
+    lst=list(diction.items())
     def sort_criteria(m):
         return m[1]
-    lst_new=sorted(lst,key=sort_criteria)
-    dict_new=dict(lst_new)
+    lst.sort(key=sort_criteria, reverse =True)
+    dict_new=dict(lst)
     return dict_new
 
 if __name__=="__main__":

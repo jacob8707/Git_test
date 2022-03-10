@@ -3,7 +3,7 @@ def sort_value(diction):
     lst=list(diction.items())
     def sort_criteria(m):
         return m[1]
-    lst.sort(key=sort_criteria, reverse =True)
+    lst.sort(key=sort_criteria)
     dict_new=dict(lst)
     return dict_new
 
